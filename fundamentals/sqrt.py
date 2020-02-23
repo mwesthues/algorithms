@@ -1,4 +1,5 @@
 import numpy as np
+import sys
 import typing
 
 def sqrt(value: float) -> float:
@@ -14,4 +15,4 @@ def sqrt(value: float) -> float:
 
 
 if __name__ == '__main__':
-    sqrt()
+    sys.exit(sqrt(sys.argv))
